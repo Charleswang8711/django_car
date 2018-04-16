@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car View</title>
+</head>
+<body>
+<table>
+    <tbody>
+    {% for car in cars %}
+    <tr>
+        <td> car owner name:&nbsp&nbsp</td>
+        <td>{{car.owner.name}}</td>
+    </tr>
+     <tr>
+        <td> car maker:&nbsp&nbsp</td>
+        <td>{{car.make}}</td>
+    </tr>
+     <tr>
+        <td> car body_type:&nbsp&nbsp</td>
+        <td>{{car.body_type}}</td>
+    </tr>
+     <tr>
+        <td> car transmission:&nbsp&nbsp</td>
+         <td>{{car.transmission}}</td>
+    </tr>
+     <tr>
+        <td> car coloure:&nbsp&nbsp</td>
+         <td>{{car.colour}}</td>
+    </tr>
+     <tr>
+        <td> car seriese:&nbsp&nbsp</td>
+        <td>{{car.series}}</td>
+    </tr>
+     <tr>
+        <td> car seatse:&nbsp&nbsp</td>
+        <td>{{car.seats}}</td>
+    </tr>
+     <tr>
+        <td> car registration_number:&nbsp&nbsp</td>
+          <td>{{car.registration_number}}</td>
+    </tr>
+     <tr>
+        <td> car fuel_type:&nbsp&nbsp</td>
+         <td>{{car.fuel_type}}</td>
+    </tr>
+
+     <tr>
+        <td> car comments:&nbsp&nbsp</td>
+         <td>{{car.comments}}</td>
+    </tr>
+
+    <tr>
+        <td> -----------------------------------------</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Owner View</title>
+</head>
+<body>
+<table>
+    <tbody>
+    {% for owner in owners %}
+    <tr>
+        <td>{{owner.name}}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>

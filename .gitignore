@@ -1,0 +1,15 @@
+urver/__pycache__/*
+urver/conf/__pycache__/*
+carowner/__pycache__/*
+carowner/migrations/__pycache__/*
+db.sqlite3
+.idea/*
+
+carowner/__pycache__/
+carowner/migrations/__pycache__/*
+staticfiles/
+urver/conf/__pycache__/*
+webpack-stats.dev.json
+webpack-stats.prod.json
+
+
